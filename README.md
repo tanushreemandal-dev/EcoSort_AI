@@ -24,7 +24,7 @@ keeping the exact same retrieve → ground → answer architecture a real
 deployment would use. See [`prompts/system_prompt.md`](prompts/system_prompt.md)
 for the prompt template and the reasoning behind that architecture.
 
-## Running it
+## How to Run
 
 **Option A - just double-click it**
 Double-click `index.html` (or `dashboard.html`) in your file explorer
