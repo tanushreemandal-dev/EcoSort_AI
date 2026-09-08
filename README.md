@@ -1,4 +1,4 @@
-# EcoSort AI
+# EcoSort AI 🧹
 
 A smart AI assistant for household waste segregation & responsible
 disposal - built for the **1M1B AI for Sustainability Virtual
