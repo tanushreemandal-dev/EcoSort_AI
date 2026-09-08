@@ -26,24 +26,12 @@ for the prompt template and the reasoning behind that architecture.
 
 ## How to Run
 
-**Option A - just double-click it**
-Double-click `index.html` (or `dashboard.html`) in your file explorer
-and it opens directly in your default browser.
-
-**Option B - VS Code Live Server extension**
-If you're using VS Code with the "Live Server" extension installed:
+**VS Code Live Server extension**
 1. Click on `index.html` in the file explorer so it's the active tab
 2. Right-click inside that tab → **"Open with Live Server"**
 3. To switch pages, either click the nav links in the app itself, or
    change the file in the browser's address bar
 
-**Option C - Python's built-in server (any OS, from a terminal)**
-```bash
-git clone <this-repo-url>
-cd ecosort-ai
-python3 -m http.server 8000
-# then open http://localhost:8000/index.html in your browser
-```
 
 Try typing "pizza box", "milk carton", "old battery", or use the
 quick-reply chips in the app. Use the "Officer view →" link in the
