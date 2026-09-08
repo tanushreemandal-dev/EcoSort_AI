@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>EcoSort AI — Waste Segregation Assistant</title>
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <div class="app-shell">
+    <div class="app-header">
+      <div class="header-row">
+        <div class="brand">
+          <div class="brand-badge">E</div>
+          <div>
+            <div class="brand-name">EcoSort AI</div>
+            <div class="brand-sub">Waste segregation assistant</div>
+          </div>
+        </div>
+        <a href="dashboard.html" class="nav-link">Officer view →</a>
+      </div>
+      <select id="citySelect" class="city-select">
+        <option>Bengaluru</option>
+        <option>Mumbai</option>
+        <option>Delhi</option>
+        <option>Pune</option>
+      </select>
+    </div>
+
+    <div id="chatWindow" class="chat-window"></div>
+
+    <div class="example-chips">
+      <button class="chip" data-query="Is a used pizza box recyclable?">Pizza box</button>
+      <button class="chip" data-query="What about a milk carton?">Milk carton</button>
+      <button class="chip" data-query="Where do old batteries go?">Old battery</button>
+      <button class="chip" data-query="Can I bin banana peels?">Banana peel</button>
+    </div>
+
+    <div class="input-bar">
+      <input id="inputField" class="input-field" type="text" placeholder="Ask about any item…" />
+      <button id="sendBtn" class="send-btn">➤</button>
+    </div>
+  </div>
+
+  <script src="assets/rules.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

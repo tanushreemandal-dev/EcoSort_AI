@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>EcoSort AI — Ward Dashboard</title>
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <div class="dash-shell">
+    <div class="sidebar">
+      <div class="brand">
+        <div class="brand-badge">E</div>
+        <div class="brand-name">EcoSort AI</div>
+      </div>
+      <a href="index.html" class="nav-link back">← Back to chat</a>
+      <div class="nav-label">OVERVIEW</div>
+      <div class="nav-item active">Ward Dashboard</div>
+      <div class="nav-item">Compliance Trends</div>
+      <div class="nav-label">OPERATIONS</div>
+      <div class="nav-item">Resident Queries</div>
+      <div class="nav-item">Collection Routes</div>
+      <div class="nav-item">Rule Library</div>
+    </div>
+
+    <div class="dash-main">
+      <div class="topbar">
+        <div>
+          <div class="title">Ward Segregation Dashboard</div>
+          <div class="subtitle">Bengaluru South Zone · Sample / mock data for demo purposes</div>
+        </div>
+      </div>
+
+      <div class="stat-row">
+        <div class="stat-card">
+          <div class="stat-num">4,812</div>
+          <div class="stat-label">Resident queries answered this month</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">76%</div>
+          <div class="stat-label">Correct segregation rate (up from 58%)</div>
+        </div>
+        <div class="stat-card alert">
+          <div class="stat-num">3</div>
+          <div class="stat-label">Wards below target - need field visits</div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title">Ward-wise segregation compliance</div>
+        <table>
+          <tr><th>Ward</th><th>Households</th><th>Compliance</th><th>Trend</th><th>Status</th></tr>
+          <tr>
+            <td>Jugipara</td><td>3,240</td>
+            <td><span class="bar-track"><span class="bar-fill" style="width:88%"></span></span>88%</td>
+            <td>▲ +6%</td><td><span class="badge good">On track</span></td>
+          </tr>
+          <tr>
+            <td>Kaltala</td><td>2,910</td>
+            <td><span class="bar-track"><span class="bar-fill" style="width:81%"></span></span>81%</td>
+            <td>▲ +4%</td><td><span class="badge good">On track</span></td>
+          </tr>
+          <tr>
+            <td>Vivekananda Pally</td><td>4,105</td>
+            <td><span class="bar-track"><span class="bar-fill" style="width:54%"></span></span>54%</td>
+            <td>▼ −2%</td><td><span class="badge warn">Needs push</span></td>
+          </tr>
+          <tr>
+            <td>Srachi Garden</td><td>3,588</td>
+            <td><span class="bar-track"><span class="bar-fill" style="width:41%"></span></span>41%</td>
+            <td>▼ −5%</td><td><span class="badge bad">Action needed</span></td>
+          </tr>
+          <tr>
+            <td>Jayanagar</td><td>2,760</td>
+            <td><span class="bar-track"><span class="bar-fill" style="width:92%"></span></span>92%</td>
+            <td>▲ +3%</td><td><span class="badge good">On track</span></td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title">Most common resident questions this week</div>
+        <table>
+          <tr><td>"Is a milk carton recyclable?"</td><td style="text-align:right; color:var(--muted);">312 queries</td></tr>
+          <tr><td>"Where's my nearest drop-off point?"</td><td style="text-align:right; color:var(--muted);">248 queries</td></tr>
+          <tr><td>"How do I dispose old batteries?"</td><td style="text-align:right; color:var(--muted);">190 queries</td></tr>
+          <tr><td>"Is a pizza box recyclable?"</td><td style="text-align:right; color:var(--muted);">176 queries</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
