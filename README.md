@@ -106,3 +106,10 @@ Tanushree Mandal · Institute Of Engineering & Management, Kolkata
 
 Built for the 1M1B AI for Sustainability Virtual Internship (IBM
 SkillsBuild & AICTE)
+
+## 🤝 Connect
+
+Have questions, feedback, or ideas for collaboration? Feel free to reach out or open an issue on this repo!
+
+- 💼 LinkedIn: [Tanushree Mandal](https://linkedin.com/in/tanushree-mandal-aba24b286)
+- 📧 Email: [tanushreemandal235@gmail.com](tanushreemandal235@gmail.com)
