@@ -26,9 +26,6 @@ for the prompt template and the reasoning behind that architecture.
 
 ## Running it
 
-No build step, no dependencies, no server required - it's plain
-HTML/CSS/JS. Pick whichever is easiest for you:
-
 **Option A - just double-click it**
 Double-click `index.html` (or `dashboard.html`) in your file explorer
 and it opens directly in your default browser.
